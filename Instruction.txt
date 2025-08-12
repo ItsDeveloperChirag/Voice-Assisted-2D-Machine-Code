@@ -1,0 +1,30 @@
+## Running and Executing Voice-Assested Graphic Machine:
+
+This guide outlines the steps involved in setting up and running your Voice-Assested Graphic Machine. 
+
+Hardware Preparation:
+
+1. Connect Electronics:Ensure you have all the components like stepper motors, Arduino uno, microcontroller, CNC sheild and a power supply battery are connected.
+2. Assemble the Machine: Follow the design plans to build the mechanical structure of the machine. This may involve attaching motors, building the drawing surface, and integrating the pen holder.
+
+
+Software Setup:
+
+1. Install Development Environment: Download and install the Arduino Integrated Development Environment (IDE), Python IDE (Pycharm), Inkscape and universal G-Code sender on your computer. 
+2. Upload Pyton Code: Load the Pyton code specifically designed for the project onto the Pycharm. This code will handle motor control, communication with the speech recognition library, and translating voice commands into drawing instructions.
+ 
+
+Testing and Calibration:
+
+1. Test Hardware Functionality: Run basic tests to ensure the motors, pen holder, and other hardware components are working correctly.
+2. Calibrate Motors: Fine-tune the motor steps per revolution and movement direction to achieve accurate drawing on your chosen surface. 
+3. Test Speech Recognition: Use the speech recognition python code to test if it accurately recognizes your voice commands for drawing and writing tasks. Refine the configuration if needed.
+
+Operation:
+
+1. Power On: Turn on the machine and ensure all components are functioning properly.
+2. Issue Voice Commands: Speak clear and concise voice commands based on your pre-defined set for drawing shapes, writing text, or other functionalities.
+3. Observe Machine Actions: The machine should interpret your voice commands and translate them into motor movements, controlling the pen to draw the desired design or write the specified text.
+
+
+By following these steps and continuously refining your project, you can successfully run and execute your voice-controlled drawing and writing machine!
